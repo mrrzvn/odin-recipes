@@ -1,16 +1,67 @@
 body {
     color: white;
-    background-color: #557a95;
+    background-color: #858861;
 }
 
-img {
+.image1 {
    display: block;
    margin: auto;
    width: 500px;
    border-radius: 8px;
   }
 
+  .image2{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+  color: white;
+  }
+
   h1 {
     text-align: center;
     font-size: 50px;
   }
+
+  .button {
+  display: inline-flex;
+  height: 80px;
+  padding: 0;
+  background: #009578;
+  border: 0;
+  border-color: black;
+  outline: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  }
+
+  .button:hover {
+    background: #008168;
+  }
+
+  .button__text,
+  .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color:aliceblue;
+    height: 100%;
+  }
+
+  .button__icon{
+    font-size: 1.0 em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+  #buton1 {
+    float: left;
+  }
+
+  #buton2 {
+    float: right;
+  }
+
